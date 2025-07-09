@@ -49,3 +49,15 @@ docker-compose up
 cd ../
 python3 app.py
 ```
+
+📁 Struktur Project
+```bash
+.
+├── app.py
+├── config.py
+├── docker-compose.yml
+├── models.py
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
