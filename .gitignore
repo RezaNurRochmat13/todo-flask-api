@@ -1,0 +1,39 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtualenv
+venv/
+.env
+
+# Editor
+.vscode/
+.idea/
+
+# Database
+*.sqlite3
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Docker
+*.pid
+*.sock
+*.tar
+pg_data/
+*.db
+
+# Python test coverage
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# Flask
+instance/
+*.pyc
+.env.*
