@@ -25,26 +25,30 @@ Project REST API TODO List sederhana menggunakan:
 
 ## 📦 Instalasi
 
-1. **Clone repo**
+### 1. Clone repo
 ```bash
 git clone https://github.com/username/python-flask-todo-api.git
 cd python-flask-todo-api
 ```
-2. Setup virtualenv
+
+### 2. Setup virtualenv
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
-3. **Install dependencies**
+
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-4. **Run database**
+
+### 4. Run database instance
 ```bash
 cd infra/
 docker-compose up
 ```
-5. **Run server**
+
+### 5. Run server
 ```bash
 cd ../
 python3 app.py
